@@ -1,0 +1,33 @@
+{
+  "context-menu": {
+    "atom-text-editor": []
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-zoom",
+          "submenu": [
+            {
+              "label": "zoomIn",
+              "command": "atom-zoom:zoomIn"
+            },
+            {
+              "label": "zoomOut",
+              "command": "atom-zoom:zoomOut"
+            },
+            {
+              "label": "reset",
+              "command": "atom-zoom:reset"
+            },
+            {
+              "label": "reload",
+              "command": "atom-zoom:reload"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

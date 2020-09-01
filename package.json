@@ -1,0 +1,34 @@
+{
+  "name": "atom-zoom",
+  "main": "./lib/atom-zoom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/atom/atom-zoom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "season": "^6.0.2"
+  },
+  "devDependencies": {
+    "husky": "latest",
+    "prettier": "latest",
+    "lint-staged": "latest",
+    "@magicdawn/prettier-config": "latest",
+    "@magicdawn/eslint-config": "latest",
+    "eslint": "^6.8.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,less,vue}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

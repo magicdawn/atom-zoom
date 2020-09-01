@@ -1,0 +1,14 @@
+# root
+root: true
+
+extends:
+  - '@magicdawn'
+
+parserOptions:
+  sourceType: module
+
+env:
+  browser: true
+
+globals:
+  atom: true
