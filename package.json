@@ -1,7 +1,7 @@
 {
   "name": "atom-zoom",
   "main": "./lib/atom-zoom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "add shortcut to atom-zoom-factor",
   "keywords": [],
   "repository": "https://github.com/magicdawn/atom-zoom",
