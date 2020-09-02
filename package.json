@@ -4,7 +4,7 @@
   "version": "0.1.4",
   "description": "add shortcut to atom-zoom-factor",
   "keywords": [],
-  "repository": "https://github.com/magicdawn/atom-zoom",
+  "repository": "git@github.com:magicdawn/atom-zoom.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
